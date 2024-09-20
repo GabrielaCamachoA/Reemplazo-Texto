@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reemplazar texto</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Reemplazar todo texto</h1>
+    <form onsubmit="reemplazar(event)">
+        <label for="texto">Ingrese un texto:</label>
+        <textarea id="texto" required></textarea>
+        <button type="submit">Reemplazar</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+<script src="./app.js"></script>
+</html>
